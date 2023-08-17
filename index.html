@@ -9,10 +9,12 @@
         <meta name="theme-color" content="#000000"/>
         <link rel="shortcut icon" href="./assets/img/favicon.ico"/>
         <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"/>
+
         <link
             rel="stylesheet"
             href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"/>
         <link rel="stylesheet" href="./assets/styles/tailwind.css"/>
+
         <title>Index | Jesse Abad</title>
     </head>
     <body class="text-blueGray-700 antialiased">
@@ -54,7 +56,7 @@
                         <li class="flex items-right">
                             <a
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                href="#works"
+                                href="#proj1"
                                 onclick="openDropdown(event,'demo-pages-dropdown')">
                                 Works
                             </a>
@@ -63,9 +65,9 @@
                         <li class="flex items-right">
                             <a
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                href="../pages/profile.html"
+                                href="#form"
                                 onclick="openDropdown(event,'demo-pages-dropdown')">
-                                Profile
+                                Contact
                             </a>
 
                         </li>
@@ -74,18 +76,18 @@
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href=""></a>
                         </li>
-                        <li class="flex items-center">
+                        <li class="flex items-center hidden">
                             <a
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-js%2F"
+                                href="#"
                                 target="_blank">
                                 <i class="text-blueGray-400 fab fa-facebook text-lg leading-lg"></i >
                                 <span class="lg:hidden inline-block ml-2">Share</span></a >
                         </li>
-                        <li class="flex items-center">
+                        <li class="flex items-center hidden">
                             <a
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-js%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20JavaScript%20UI%20Kit%20and%20Admin.%20Let%20Notus%20JS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
+                                href="#"
                                 target="_blank">
                                 <i class="text-blueGray-400 fab fa-twitter text-lg leading-lg"></i >
                                 <span class="lg:hidden inline-block ml-2">Tweet</span></a >
@@ -94,7 +96,7 @@
                         <li class="flex items-center">
                             <a
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-js%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20JavaScript%20UI%20Kit%20and%20Admin.%20Let%20Notus%20JS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
+                                href="https://www.linkedin.com/in/jesse-abad-39080010/"
                                 target="_blank">
                                 <i class="text-blueGray-400 fab fa-linkedin text-lg leading-lg"></i >
                                 <span class="lg:hidden inline-block ml-2">LinkedIn</span></a >
@@ -103,7 +105,7 @@
                         <li class="flex items-center">
                             <a
                                 class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-js%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20JavaScript%20UI%20Kit%20and%20Admin.%20Let%20Notus%20JS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
+                                href="mailto:jesse.abad@gmail.com"
                                 target="_blank">
                                 <i class="text-blueGray-400 fab fa-google text-lg leading-lg"></i >
                                 <span class="lg:hidden inline-block ml-2">Gmail</span></a >
@@ -112,11 +114,14 @@
                         <li class="flex items-center">
                             <button
                                 class="text-white bg-lightBlue-500 active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                                type="button">
+                                type="button"
+                                style="background-color: rgb(0,132,199)"
+                                onclick="window.open('./assets/documents/Jesse_Abad_CV_2023_E-Learning _Developer.pdf')">
                                 <i class="fas fa-arrow-alt-circle-down"></i>
                                 Download CV
                             </button>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -148,7 +153,7 @@
             alt="..."/>
     </section>
 
-    <section class="mt-0 md:mt-40 pb-40 relative bg-blueGray-100" id="works">
+    <section class="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
             class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
             style="transform: translateZ(0)">
@@ -163,189 +168,452 @@
                 <polygon class="text-blueGray-100 fill-current" points="2560 0 2560 100 0 100"></polygon>
             </svg>
         </div>
-
-        <div class="container mx-auto overflow-hidden pb-20">
-
-            <div class="flex flex-wrap items-center pt-32">
-                <div class="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
-                    <div class="justify-center flex flex-wrap relative">
-                        <div class="my-4 w-full lg:w-6/12 px-4">
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                                target="_blank">
-                                <div class="bg-red-600 shadow-lg rounded-lg text-center p-8">
-                                    <img
-                                        alt="..."
-                                        class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"/>
-                                    <p class="text-lg text-white mt-4 font-semibold">Svelte</p>
-                                </div>
-                            </a>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                                target="_blank">
-                                <div class="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                                    <img
-                                        alt="..."
-                                        class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"/>
-                                    <p class="text-lg text-white mt-4 font-semibold">ReactJS</p>
-                                </div>
-                            </a>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                                target="_blank">
-                                <div class="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                                    <img
-                                        alt="..."
-                                        class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"/>
-                                    <p class="text-lg text-white mt-4 font-semibold">NextJS</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                                target="_blank">
-                                <div class="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-                                    <img
-                                        alt="..."
-                                        class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"/>
-                                    <p class="text-lg text-white mt-4 font-semibold">
-                                        JavaScript
-                                    </p>
-                                </div>
-                            </a>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                                target="_blank">
-                                <div class="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                                    <img
-                                        alt="..."
-                                        class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"/>
-                                    <p class="text-lg text-white mt-4 font-semibold">Angular</p>
-                                </div>
-                            </a>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                                target="_blank">
-                                <div class="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                                    <img
-                                        alt="..."
-                                        class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"/>
-                                    <p class="text-lg text-white mt-4 font-semibold">Vue.js</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
-                    <div
-                        class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                        <i class="fas fa-drafting-compass text-xl"></i>
-                    </div>
-                    <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                        Projects
-                    </h3>
-                    <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                        In order to create a great User Experience some components require JavaScript.
-                        In this way you can manipulate the elements on the page and give more options to
-                        your users.
+        <div class="container mx-auto px-4 " id="proj1">
+            <div class="flex flex-wrap justify-center text-center mb-24 ">
+                <div class="w-full lg:w-6/12 px-4 mt-20">
+                    <h2 class="text-4xl font-semibold">Storyline 360 Projects</h2>
+                    <br>
+                    <h3 class="text-2xl font-semibold">Full Courses</h3>
+                    <p class="text-lg leading-relaxed m-4 text-blueGray-500">
+                        Courses designed and built using Articulate Storyline 360
                     </p>
-                    <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                        We created a set of Components that are dynamic and come to help you.
-                    </p>
-                    
-                    
                 </div>
             </div>
-        </div>
 
-        <div class="container mx-auto px-4 pb-32 pt-48">
-            <div class="items-center flex flex-wrap">
-                <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
-                    <div class="md:pr-12">
-                        <div
-                            class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                            <i class="fas fa-file-alt text-xl"></i>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://win.manitobastart.com/e-learning/win-orientation-english/"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/win-en.png"
+                                class="shadow-lg  rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold leading-tight">Winnipeg Introduction for Newcomers</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Manitoba Start
+                                </p>
+
+                            </div>
                         </div>
-                        <h3 class="text-3xl font-semibold">Complex Documentation</h3>
-                        <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                            This extension comes a lot of fully coded examples that help you get started
-                            faster. You can adjust the colors and also the programming language. You can
-                            change the text and images and you're good to go.
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/a920f5e3-8a83-488c-9e62-eac795593d0c/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/mr-en.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Council Members' Codes of Conducts</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Municipal Relations
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/c1d97ade-7684-457e-bd24-7f270508e70f/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/record-keeping-en.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Introduction to Records & Information Management</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Goverment Records Office Archives of Manitoba
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/839edc9f-5d3f-4b87-9e37-1582f0ca2b80/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/clinical-supervision-en.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Clinical Supervision</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Manitoba Families
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap mt-20">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/e07209a6-93d4-4e77-9431-5a8e949768fb/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/ccs-en.png"
+                                class="shadow-lg  rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Introduction to Citizen-Centred Services</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Institute for Citizen-Centred Service
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/3288ccb4-6d34-4017-8c93-81d722b6294a/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/csga-seeds-en.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Introduction to Canadian Seed Sector</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Canadian Seed Growers' Association
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/0bee8552-74b6-4cda-a0a6-dfa8fca22f19/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/cross-border.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Cross Border Travel Requirements</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    NFI Group
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://360.articulate.com/review/content/86f6b449-4ea7-4be6-9afd-123de294de86/review"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/rwb-indigenous-en.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Indigenous Awareness</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    Regional Municipality of Wood Buffalo
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center text-center mb-24 ">
+                <div class="w-full lg:w-6/12 px-4 mt-20">
+                    <h3 class="text-2xl font-semibold">Course Inserts</h3>
+                    <p class="text-lg leading-relaxed m-4 text-blueGray-500">
+                        Storyline interactive presentations inserted in a section of a Rise 360 course
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap mt-20">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/aWNW4BbP-kKOacBIA4lC0BJWxtlIR-Ms/85ybZJ-H5RBl-9xD/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/wi-teams-teamwork.png"
+                                class="shadow-lg  rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Teams & Team Work</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/S74vskzkNiXoyb6LeqCBq6Iga1xbWE8G/-3drrvYvTeSKn7wu/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/tips-clear-comm.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Clear Communication</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/-tpNoQ-cWycMcBbab_4S2XxEmJaSzUCT/9agtJfUFOAKO46ld/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/wi-initiative.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Initiative</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/Og5O9-xbj2cF6kP61bZi_T6cyb_zGmLz/hjg7ww1mly99TXip/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/tips-opinion-suggestion.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Opinion and Suggetion</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-wrap mt-20">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/yoNvEkgh9qs8cN2I8a6WrxMvRlnPwYjQ/K7i2hJPEFGLO3YbW/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/vb-kitchen.png"
+                                class="shadow-lg  rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Kitchen</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/OD_BZXjeh6L9nxID8-xn7ZEd9o8sOFke/kXAjeEMZgMpcFj63/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/vb-breakfast.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Breakfast</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/WQbokUijrTvPGyGqzGplDernJq7jFDhd/B3zsumBipvtsxYOI/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/vb-beds.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Types of Beds</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                    <a
+                        href="https://articulateusercontent.com/rise/courses/tkRUDOJEkbYvUvyqh2RIjnSifAvIsVBz/a9HU4cILESCW6Vv3/story.html?rise=true"
+                        class=""
+                        target="_blank">
+                        <div class="px-6">
+                            <img
+                                alt="..."
+                                src="../assets/img/vb-bedding.png"
+                                class="shadow-lg rounded mx-auto max-w-550-px"/>
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Beddings</h5>
+                                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                    THRC Destination Employment
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="container mx-auto px-4 " id="">
+                <div class="flex flex-wrap justify-center text-center mb-24 mt-40 ">
+                    <div class="w-full lg:w-6/12 px-4 mt-20">
+                        <h2 class="text-4xl font-semibold">Rise 360 Projects</h2>
+                        <p class="text-lg leading-relaxed m-4 text-blueGray-500">
+                            Courses designed and built using Articulate Rise 360
                         </p>
-                        <ul class="list-none mt-6">
-                            <li class="py-2">
-                                <div class="flex items-center">
-                                    <div>
-                                        <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                                            <i class="fas fa-fingerprint"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-blueGray-500">
-                                            Built by Developers for Developers
-                                        </h4>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-2">
-                                <div class="flex items-center">
-                                    <div>
-                                        <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                                            <i class="fab fa-html5"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-blueGray-500">
-                                            Carefully crafted code for Components
-                                        </h4>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-2">
-                                <div class="flex items-center">
-                                    <div>
-                                        <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                                            <i class="far fa-paper-plane"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-blueGray-500">
-                                            Dynamic Javascript Components
-                                        </h4>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
-
-                <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-                    <img
-                        alt="..."
-                        class="max-w-full rounded-lg shadow-xl"
-                        style="
-                transform: scale(1) perspective(1040px) rotateY(-11deg)
-                  rotateX(2deg) rotate(2deg);
-              "
-                        src="./assets/img/documentation.png"/>
+    
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <a
+                            href="https://rise.articulate.com/share/Tqic5xZeaNdhVCn8tsOOtWyZt9TDIM-A#/"
+                            class=""
+                            target="_blank">
+                            <div class="px-6">
+                                <img
+                                    alt="..."
+                                    src="../assets/img/rise-tips-friends.png"
+                                    class="shadow-lg  rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                                <div class="pt-6 text-center">
+                                    <h5 class="text-xl font-bold leading-tight">Top Tips: Making Friends at Work</h5>
+                                    <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                        THRC Destination Employment
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <a
+                            href="https://rise.articulate.com/share/cTrbXNDXRJbpaSbao4JDrpnX8UcMkh8U#/"
+                            class=""
+                            target="_blank">
+                            <div class="px-6">
+                                <img
+                                    alt="..."
+                                    src="../assets/img/rise-dangerous-prod.png"
+                                    class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                                <div class="pt-6 text-center">
+                                    <h5 class="text-xl font-bold">Skills Practice: Symbols for Dangerous Products</h5>
+                                    <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                        THRC Destination Employment
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <a
+                            href="https://rise.articulate.com/share/PIWKg0KO73PwiT5omNTeEm-NE1p4TG-3#/"
+                            class=""
+                            target="_blank">
+                            <div class="px-6">
+                                <img
+                                    alt="..."
+                                    src="../assets/img/rise-wi-teams.png"
+                                    class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                                <div class="pt-6 text-center">
+                                    <h5 class="text-xl font-bold">Work Ideas: Teams & Teamwork</h5>
+                                    <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                        THRC Destination Employment
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <a
+                            href="https://rise.articulate.com/share/0h7XHjgNBipW9WgvKplFT-S_QJlx9k02#/"
+                            class=""
+                            target="_blank">
+                            <div class="px-6">
+                                <img
+                                    alt="..."
+                                    src="../assets/img/rise-ej-fda.png"
+                                    class="shadow-lg rounded mx-auto max-w-550-px border border-blueGray-300"/>
+                                <div class="pt-6 text-center">
+                                    <h5 class="text-xl font-bold">Exploring Jobs: Front Desk Agent</h5>
+                                    <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                                        THRC Destination Employment
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
+    
+                
         </div>
-
     </section>
 
-    <section class="pb-20 relative block bg-blueGray-800">
+    <section class="pb-20 relative block bg-blueGray-800" id="form">
         <div
             class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style="transform: translateZ(0px)">
@@ -363,26 +631,23 @@
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div class="flex flex-wrap text-center justify-center">
                 <div class="w-full lg:w-6/12 px-4">
-                    <h2 class="text-4xl font-semibold text-white">Build something</h2>
-                    <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                        Put the potentially record low maximum sea ice extent tihs year down to low ice.
-                        According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
-                    </p>
+                    <h2 class="text-4xl font-semibold text-white">Let's Build Something</h2>
+                    
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="relative block py-24 lg:pt-0 bg-blueGray-800">
+    <section class="relative block py-24 lg:pt-0 bg-blueGray-800 ">
         <div class="container mx-auto px-4">
-            <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+            <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48 ">
                 <div class="w-full lg:w-6/12 px-4">
                     <div
                         class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                         <div class="flex-auto p-5 lg:p-10">
-                            <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                            <h4 class="text-2xl font-semibold">Where Can I Help?</h4>
                             <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                                Complete this form and we will get back to you in 24 hours.
+                                Complete this form and I will get back to you in 24 hours.
                             </p>
                             <div class="relative w-full mb-3 mt-8">
                                 <label
@@ -420,223 +685,136 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-wrap mt-12 justify-center">
-                    <div class="w-full lg:w-3/12 px-4 text-center">
-                        <div
-                            class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                            <i class="fas fa-medal text-xl"></i>
-                        </div>
-                        <h6 class="text-xl mt-5 font-semibold text-white">
-                            Excelent Services
-                        </h6>
-                        <p class="mt-2 mb-4 text-blueGray-400">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                    <div class="w-full lg:w-3/12 px-4 text-center">
-                        <div
-                            class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                            <i class="fas fa-poll text-xl"></i>
-                        </div>
-                        <h5 class="text-xl mt-5 font-semibold text-white">
-                            Grow your market
-                        </h5>
-                        <p class="mt-2 mb-4 text-blueGray-400">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                    <div class="w-full lg:w-3/12 px-4 text-center">
-                        <div
-                            class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                            <i class="fas fa-lightbulb text-xl"></i>
-                        </div>
-                        <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
-                        <p class="mt-2 mb-4 text-blueGray-400">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                </div>
+
             </div>
         </div>
-    </section>
-    <footer class="relative bg-blueGray-200 pt-8 pb-6">
-        <div
-            class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-            style="transform: translateZ(0)">
-            <svg
-                class="absolute bottom-0 overflow-hidden"
-                xmlns="http://www.w3.org/2000/svg"
-                preserveaspectratio="none"
-                version="1.1"
-                viewbox="0 0 2560 100"
-                x="0"
-                y="0">
-                <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
-            </svg>
-        </div>
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap text-center lg:text-left">
-                <div class="w-full lg:w-6/12 px-4">
-                    <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-                    <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
-                        Find me on any of these platforms, I will respond as soon as I can.
-                    </h5>
-                    <div class="mt-6 lg:mb-0 mb-6">
-                        <button
-                            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                            type="button">
-                            <i class="fab fa-twitter"></i>
-                        </button>
-                        <button
-                            class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                            type="button">
-                            <i class="fab fa-facebook-square"></i>
-                        </button>
-                        <button
-                            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                            type="button">
-                            <i class="fab fa-dribbble"></i>
-                        </button>
-                        <button
-                            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                            type="button">
-                            <i class="fab fa-github"></i>
-                        </button>
-                    </div>
-                </div>
-                <!--
-                <div class="w-full lg:w-6/12 px-4">
-                    <div class="flex flex-wrap items-top mb-6">
-                        <div class="w-full lg:w-4/12 px-4 ml-auto">
-                            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                                Useful Links
-                            </span>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://www.creative-tim.com/presentation?ref=njs-index">
-                                        About Us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://blog.creative-tim.com?ref=njs-index">
-                                        Blog
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://www.github.com/creativetimofficial?ref=njs-index">
-                                        Github
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-index">
-                                        Free Products
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full lg:w-4/12 px-4">
-                            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                                Other Resources
-                            </span>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-index">
-                                        MIT License
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/terms?ref=njs-index">
-                                        Terms & Conditions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/privacy?ref=njs-index">
-                                        Privacy Policy
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/contact-us?ref=njs-index">
-                                        Contact Us
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>-->
-            </div>
-            <hr class="my-6 border-blueGray-300"/>
-            <div class="flex flex-wrap items-center md:justify-between justify-center">
-                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-                    <div class="text-sm text-blueGray-500 font-semibold py-1">
-                        Copyright ©
-                        <span id="get-current-year"></span>
-                        Jesse Abad Portfolio
-                    </div>
-                </div>
+        
+    </div>
+</div>
+</section>
+
+<footer class="relative bg-blueGray-200 pt-8 pb-6">
+<div
+    class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+    style="transform: translateZ(0)">
+    <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveaspectratio="none"
+        version="1.1"
+        viewbox="0 0 2560 100"
+        x="0"
+        y="0">
+        <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+    </svg>
+</div>
+<div class="container mx-auto px-4 ">
+    <div class="flex flex-wrap text-center lg:text-left hidden">
+        <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+                Find me on any of these platforms, I will respond as soon as I can.
+            </h5>
+            <div class="mt-6 lg:mb-0 mb-6">
+                <button
+                    class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button
+                    class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button">
+                    <i class="fab fa-facebook-square"></i>
+                </button>
+                <button
+                    class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button">
+                    <i class="fab fa-dribbble"></i>
+                </button>
+                <button
+                    class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button">
+                    <i class="fab fa-github"></i>
+                </button>
             </div>
         </div>
-    </footer>
+
+    </div>
+    <hr class="my-6 border-blueGray-300"/>
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-blueGray-500 font-semibold py-1">
+                Copyright ©
+                <span id="get-current-year"></span>
+                Jesse Abad Portfolio
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
 </body>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 <script src="/assets/js/index.js"></script>
+<script src="https://cdn.tailwindcss.com/"></script>
 <script>
-    /* Make dynamic date appear */
-    (function () {
-        if (document.getElementById("get-current-year")) {
-            document
-                .getElementById("get-current-year")
-                .innerHTML = new Date().getFullYear();
-        }
-    })();
-    /* Function for opning navbar on mobile */
-    function toggleNavbar(collapseID) {
-        document
-            .getElementById(collapseID)
-            .classList
-            .toggle("hidden");
-        document
-            .getElementById(collapseID)
-            .classList
-            .toggle("block");
-    }
-    /* Function for dropdowns */
-    function openDropdown(event, dropdownID) {
-        let element = event.target;
-        while (element.nodeName !== "A") {
-            element = element.parentNode;
-        }
-        Popper.createPopper(
-            element,
-            document.getElementById(dropdownID),
-            {placement: "bottom-start"}
-        );
-        document
-            .getElementById(dropdownID)
-            .classList
-            .toggle("hidden");
-        document
-            .getElementById(dropdownID)
-            .classList
-            .toggle("block");
-    }
+/* Make dynamic date appear */
+(function () {
+if (document.getElementById("get-current-year")) {
+    document
+        .getElementById("get-current-year")
+        .innerHTML = new Date().getFullYear();
+}
+})();
+/* Function for opning navbar on mobile */
+function toggleNavbar(collapseID) {
+document
+    .getElementById(collapseID)
+    .classList
+    .toggle("hidden");
+document
+    .getElementById(collapseID)
+    .classList
+    .toggle("block");
+}
+/* Function for dropdowns */
+function openDropdown(event, dropdownID) {
+let element = event.target;
+while (element.nodeName !== "A") {
+    element = element.parentNode;
+}
+Popper.createPopper(
+    element,
+    document.getElementById(dropdownID),
+    {placement: "bottom-start"}
+);
+document
+    .getElementById(dropdownID)
+    .classList
+    .toggle("hidden");
+document
+    .getElementById(dropdownID)
+    .classList
+    .toggle("block");
+}
+/* Function for Modal */
+function toggleModal(modalID) {
+document
+    .getElementById(modalID)
+    .classList
+    .toggle("hidden");
+document
+    .getElementById(modalID + "-backdrop")
+    .classList
+    .toggle("hidden");
+document
+    .getElementById(modalID)
+    .classList
+    .toggle("");
+document
+    .getElementById(modalID + "-backdrop")
+    .classList
+    .toggle("");
+modalIframe.src = externalURL;
+}
 </script>
 </html>
